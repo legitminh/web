@@ -17,6 +17,13 @@ export default function NavBar(){
                     HELP
                 </div>
             </div>
+            <div className=" mr=[2rem]">
+                <div className=" "></div>
+                <Image  alt={"lego logo"} src={"legoLogo.svg"} width={2} height={2}>
+
+                </Image>
+            </div>
+
         </div>
     </>)
 }
