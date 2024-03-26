@@ -1,7 +1,7 @@
 import Image from "next/image"
 import Link from "next/link"
 export default function NavBar(){
-    return (<>
+    return (<>  
         <div className=" w-full h-[3.5em] bg-yellow-400 flex items-center">
             <div className=" flex h-min ml-5 items-center">
                 {/* Width and heigh does not matter */}
@@ -21,12 +21,12 @@ export default function NavBar(){
                     HELP
                 </div>
             </div>
-            <div className=" mr=[2rem]">
+            {/* <div className=" mr=[2rem]">
                 <div className=" "></div>
                 <Image  alt={"lego logo"} src={"legoLogo.svg"} width={2} height={2}>
 
                 </Image>
-            </div>
+            </div> */}
 
         </div>
     </>)
